@@ -203,9 +203,9 @@ export async function POST(request: NextRequest) {
     };
 
     return NextResponse.json({
-      user_id: 'johndoe_17091999',
-      email_id: 'john.doe@college.edu',
-      college_roll_number: '21CS1001',
+      user_id: 'terin_17091999',
+      email_id: 'terin@college.edu',
+      college_roll_number: 'RA2311003020624',
       hierarchies,
       invalid_entries,
       duplicate_edges,
